@@ -1,6 +1,11 @@
+import org.gradle.internal.impldep.org.junit.experimental.categories.Categories.CategoryFilter.include
+
 rootProject.name = "otusJava"
 include("hw01-gradle")
 include("hw02-generic")
+
+include("hw09-jdbcORM:demo")
+include("hw09-jdbcORM:homework")
 
 
 pluginManagement {
